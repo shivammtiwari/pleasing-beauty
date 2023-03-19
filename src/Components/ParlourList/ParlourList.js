@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './ParlourList.css'
 import { useParams } from 'react-router-dom'
-import Homepage from './List'
+import List from './List'
 import Footer from '../Footer/Footer'
 
 const ParlourList = () => {
@@ -20,7 +20,7 @@ const ParlourList = () => {
         </h2>
     </div>
     </div>
-    <Homepage/>
+    <List/>
     <Footer/>
     </>
   )

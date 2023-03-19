@@ -4,6 +4,7 @@ import axios from "axios";
 
 const List = () => {
   const [data, setdata] = useState([]);
+  
   const fetchData = async () => {
     const response = await axios.get("https://fakestoreapi.com/products");
     setdata(response.data);
