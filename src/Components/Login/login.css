@@ -1,0 +1,14 @@
+.continue {
+    background-color: #FF8A3D;
+    border: #FF8A3D;
+    color: white;
+    width: 318px;
+    border-radius: 5px;
+    margin: 25px 20px 0px 17px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .input {
+    margin-top: 30px;
+  }
